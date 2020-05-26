@@ -24,6 +24,4 @@ public:
 
 #include "ArrayList.hpp"
 
-typedef ArrayList List;
-
 #endif
