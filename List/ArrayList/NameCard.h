@@ -8,9 +8,9 @@ struct NameCard
     std::string name;
     std::string phone;
 
-    static NameCard * MakeNameCard(std::string name, std::string phone);
+    static NameCard MakeNameCard(std::string name, std::string phone);
     void ShowNameCardInfo();
-    bool NameCompare(std::string);
+    int NameCompare(std::string);
     void ChangePhoneNum(std::string);
 };
 
