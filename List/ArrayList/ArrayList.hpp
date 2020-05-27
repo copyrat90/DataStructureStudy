@@ -52,7 +52,7 @@ T ArrayList<T>::Remove()
 
     --_count;
     for (int i = _position; i < _count; ++i)
-        arr[i] = arr[i+1];
+        _arr[i] = _arr[i+1];
     
     --_position;
     return removed;
