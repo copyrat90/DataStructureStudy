@@ -1,3 +1,4 @@
+#include <iostream>
 #include "NameCard.h"
 
 NameCard NameCard::MakeNameCard(std::string name, std::string phone)
@@ -11,8 +12,8 @@ NameCard NameCard::MakeNameCard(std::string name, std::string phone)
 
 void NameCard::ShowNameCardInfo()
 {
-    printf("[ Name] %s\n", name);
-    printf("[Phone] %s\n\n", phone);
+    std::cout << "[ Name] " << name << '\n';
+    std::cout << "[Phone] " << phone << "\n\n";
 }
 
 int NameCard::NameCompare(std::string name)
